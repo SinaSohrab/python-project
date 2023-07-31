@@ -4,10 +4,10 @@ list_city = []
 
 while True:
     name = input("whats your name: ")
+    if name == "0":
+        break
     age = input("age: ")
     city = input("What is the name of fame: ")
-    if name == 0:
-        break
     list_name.append(name)
     list_age.append(age)
     list_city.append(city)
