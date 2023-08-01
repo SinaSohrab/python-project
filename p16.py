@@ -1,4 +1,10 @@
 number = int(input("your number: "))
-for i in range(1, 11):
-    zarb = 2 * i
-    print("2", "*", i, "=", zarb)
+def zarb(n):
+    for i in range(1,n):
+        j_zarb=2*i
+        return j_zarb
+
+for i in range(1,11):
+    if zarb(i):
+        javab=number*i
+        print(number,"*",i,"=",javab)
