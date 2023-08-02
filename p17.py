@@ -18,9 +18,9 @@ while True:
 
     if number == 3:
         name_book = input("The name of the book you want to change: ")
-        del book[name_book]
         value_new_book = input("The new name of the book: ")
         key_new_book = input("New topic of the book: ")
+        book[value_new_book] = book.pop(name_book, None)
         book[value_new_book] = key_new_book
 
     if number == 4:
