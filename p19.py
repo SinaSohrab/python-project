@@ -15,7 +15,7 @@ def ramz_is_okey(ramz_digits):
         return True
 
 
-for ramz in range(0, 1000000):
+for ramz in range(100000, 1000000):
     this_ramz = str(ramz).zfill(6)
 
     ramz_digits = {}
