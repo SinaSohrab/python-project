@@ -1,10 +1,11 @@
-def matn (one,tow):
+def matn(one, tow):
     if tow in one:
         print("True")
     else:
         print("False")
-    
-o=input("text: ")
-t=input("setch: ")
 
-matn(o,t)
+
+text = input("text: ")
+search = input("search: ")
+
+matn(text, search)
