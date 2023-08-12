@@ -1,23 +1,20 @@
-def Print():
-    print(user_name, email_addres)
-
-
-def Is_Gmail():
-    email_addres = email_addres.split("@gamil")
-
-email_addres="dsag@gamil.com"
-if Is_Gmail:
-    print(email_addres)
-
 users = []
 while True:
-    user_name = input("user name: ")
-    email_addres = input("email addres: ")
-    password = input("your password: ")
+    user_name = str(input("user name: "))
+    email_addres = str(input("email addres: "))
+    password = int(input("your password: "))
     user = user_name, email_addres, password
     users.append(user)
     exit = input("Do you want to continue?[y]|[n]: ")
     if exit == "n":
         break
 
-print(users)
+
+def chek_gmail(email_addres):
+    if "@gami" in email_addres:
+        return print("isGmail= YES")
+    else:
+        return print("isGmail= NO")
+
+
+print(users, chek_gmail(email_addres))
