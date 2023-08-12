@@ -1,25 +1,29 @@
+class User:
+    def __init__(self, user_name, email, password):
+        self.user_name = user_name
+        self.email = email
+        self.password = password
+
+    def Print(self):
+        print(self.user_name, self.email)
+
+    def Chek_Email(self):
+        return self.email.endswith("@gmail.com")
+
+
 users = []
-gmail=[]
 while True:
     user_name = str(input("user name: "))
     email_addres = str(input("email addres: "))
     password = int(input("your password: "))
-    user = user_name, email_addres, password
+    user = User(user_name, email_addres, password)
     users.append(user)
-    gmail.append(email_addres)
+    user.Chek_Email()
+
     exit = input("Do you want to continue?[y]|[n]: ")
     if exit == "n":
         break
 
-
-def chek_gmail(gmail):
-    if "@gmail" in gmail:
-        return print("users",users, "isGmail= YES")
-    else:
-        return print("users",users, "isGmail= NO")
-    
-for i in gmail:
-    if chek_gmail(i):
-        gmail=i
-
-        print(users)
+print("All users: ", len(users))
+for user in users:
+    print("isgmail:", "Yes" if user.Chek_Email() else "No",)
