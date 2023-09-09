@@ -1,0 +1,21 @@
+digraph Tree {
+  node [shape = square, style = filled, color = "white"];
+  edge [arrowhead = none];
+
+  // سطح اول
+  A [label = "A"];
+
+  // سطح دوم
+  B [label = "B"];
+  C [label = "C"];
+  A -> B;
+  A -> C;
+
+  // سطح سوم
+  D [label = "D"];
+  E [label = "E"];
+  F [label = "F"];
+  B -> D;
+  B -> E;
+  C -> F;
+}
