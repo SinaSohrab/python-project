@@ -9,9 +9,9 @@ digraph Tree {
     D [label = "D";];
     E [label = "E";];
     F [label = "F";];
-    G [label = "G";];
-    M [label = "M";];
-    
+    G [label = "G";];    
+
+
     // تعریف روابط بین گره‌ها
     A -> B;
     // A به B متصل است
