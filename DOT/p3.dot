@@ -1,0 +1,32 @@
+digraph Tree {
+    node [shape = rectangle;];
+    // تعیین شکل گره‌ها به صورت جعبه
+    
+    // تعریف گره‌ها
+    A [label = "A";];
+    B [label = "B";];
+    C [label = "C";];
+    D [label = "D";];
+    E [label = "E";];
+    F [label = "F";];
+    G [label = "G";];
+    M [label = "M";];
+    
+    // تعریف روابط بین گره‌ها
+    A -> B;
+    // A به B متصل است
+    A -> C;
+    // A به C متصل است
+    B -> D;
+    // B به D متصل است
+    B -> E;
+    // B به E متصل است
+    C -> F;
+    // C به F متصل است
+    C -> G;
+    // C به G متصل است
+    G -> A;
+    G -> M;
+    M -> A;
+    C -> M;
+}
