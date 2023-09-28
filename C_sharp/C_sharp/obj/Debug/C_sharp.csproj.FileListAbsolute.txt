@@ -1,0 +1,8 @@
+D:\python-project\C_sharp\C_sharp\bin\Debug\C_sharp.exe.config
+D:\python-project\C_sharp\C_sharp\bin\Debug\C_sharp.exe
+D:\python-project\C_sharp\C_sharp\bin\Debug\C_sharp.pdb
+D:\python-project\C_sharp\C_sharp\obj\Debug\C_sharp.csproj.AssemblyReference.cache
+D:\python-project\C_sharp\C_sharp\obj\Debug\C_sharp.csproj.SuggestedBindingRedirects.cache
+D:\python-project\C_sharp\C_sharp\obj\Debug\C_sharp.csproj.CoreCompileInputs.cache
+D:\python-project\C_sharp\C_sharp\obj\Debug\C_sharp.exe
+D:\python-project\C_sharp\C_sharp\obj\Debug\C_sharp.pdb
