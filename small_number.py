@@ -1,11 +1,15 @@
-sum = 0
-i = 0
-while True:
-    number = float(input("your number: "))
-    if number == 0:
-        break
-    i += 1
-    sum = number + sum
-    
-    
-print(avrage := sum / i)
+number = 95318
+number_list = []
+number = str(number)
+for i in number:
+    number_list.append(i)
+
+number_list.sort()
+
+sum = "your number: "
+sum = str(sum)
+
+for i in number_list:
+    sum += i
+
+print(sum)
