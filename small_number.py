@@ -6,7 +6,7 @@ for i in number:
 
 number_list.sort()
 
-sum = "your number: "
+sum = ""
 sum = str(sum)
 
 for i in number_list:
