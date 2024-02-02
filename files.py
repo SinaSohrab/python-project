@@ -1,7 +1,5 @@
-names_lsit = []
+name = input("inter your name: ")
+file = open("files.txt", "a")
 
-for _ in range(3):
-    names_lsit.append(input("inter your name: "))
-
-for name in sorted(names_lsit):
-    print(f"hello! {name}")
+file.write(name + "\n")
+file.close()
